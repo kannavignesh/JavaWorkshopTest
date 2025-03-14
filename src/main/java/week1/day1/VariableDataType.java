@@ -87,7 +87,7 @@ public class VariableDataType{
 		
 	//----------------------------------------------------------------------------------------//
 		//Jump statements- break, continue
-		// break
+		// break to stop the execution
 		System.out.println("Break statement stoping iteration when 5");
 		for (int j = 0; j <= 10; j++) {
 			System.out.println(j);
@@ -96,9 +96,10 @@ public class VariableDataType{
 			}
 			
 		}
+		//Thanks
 	
-		// continue
-		System.out.println("Continue statement stoping iteration till 5");
+		// continue to skip the iteration
+		System.out.println("Continue statement stoping iteration sysout till 5");
 		for (int j = 0; j <= 10; j++) {
 			
 			if(j<=5) {
