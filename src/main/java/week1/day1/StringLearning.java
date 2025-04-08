@@ -38,12 +38,27 @@ public class StringLearning {
 		System.out.println(company.lastIndexOf('a'));
 		System.out.println(company.indexOf('K')); //returns -1
 		
-		//Matches
+		//7. Matches
 		boolean equals = company.equals("Bank of America");
 		System.out.println(equals);
 		
 		boolean equalIgnoreCase = company.equalsIgnoreCase("bank of america");
 		System.out.println(equalIgnoreCase);
+		
+		// 8. Char at index
+		System.out.println(company.charAt(0));
+		//last index
+		System.out.println(company.charAt(company.length()-1));
+		
+		// Concadinate 
+		String amount= "Taking $ only";
+		company += amount;
+		System.out.println(company);
+		
+		//split string
+		String[] split = company.split(" ");
+		System.out.println(split.length);
+		
 				
 		
 
