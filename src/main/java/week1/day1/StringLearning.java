@@ -50,6 +50,15 @@ public class StringLearning {
 		//last index
 		System.out.println(company.charAt(company.length()-1));
 		
+		// Concadinate 
+		String amount= "Taking $ only";
+		company += amount;
+		System.out.println(company);
+		
+		//split string
+		String[] split = company.split(" ");
+		System.out.println(split.length);
+		
 				
 		
 
