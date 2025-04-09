@@ -59,6 +59,14 @@ public class StringLearning {
 		String[] split = company.split(" ");
 		System.out.println(split.length);
 		
+		//replace
+		String replaceText = company.replace("America", "India");
+		System.out.println(replaceText);
+		String replaceText1 = company.replace("Taking $ only", " ");
+		System.out.println(replaceText1);
+
+		
+		
 				
 		
 
