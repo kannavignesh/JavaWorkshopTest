@@ -7,6 +7,12 @@ public class MyPhone {
 		//AndroidDesign phone = new AndroidDesign();
 		
 		SamsungClass phone = new SamsungClass();
+		
+		//or
+		// interface name object = new class name()
+		
+		AndroidDesign phone2 = new SamsungClass();
+		
 
 	}
 
