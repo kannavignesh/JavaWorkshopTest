@@ -1,6 +1,6 @@
 package week2.day1;
 
-public class Samsung implements AndroidDesign{
+public class SamsungClass implements AndroidDesign, SamsungDesign{
 
 	@Override
 	public boolean statrPhone() {
